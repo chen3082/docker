@@ -40,15 +40,15 @@ If you do not use Ubuntu 16.04, please consider using our docker file. Everythin
 * First install docker  
   Following this [Document](https://www.vultr.com/docs/installing-docker-ce-on-ubuntu-16-04)
 
-*Clone the repository:
+* Clone the repository:
   ```zsh
   git clone https://github.com/chen3082/docker.git
   ```
-*Build the image: 
+* Build the image: 
   ```zsh
   sudo docker build -t first .  
   ```
-*Run the image: 
+* Run the image: 
   ```zsh
   sudo docker run --net=host -it -e DISPLAY=$DISPLAY first
   ```
