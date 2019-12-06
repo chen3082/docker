@@ -62,3 +62,6 @@ If you do not use Ubuntu 16.04, please consider using our docker file. Everythin
  
  * You can find the project information about testing, training and other things in the link.  
  	[Purdue bioinspired lab](https://github.com/purdue-biorobotics/flappy)
+	
+## Contributor
+Yunlei Yan, Yuan-Cheng Chen
