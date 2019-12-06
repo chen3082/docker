@@ -59,3 +59,6 @@ If you do not use Ubuntu 16.04, please consider using our docker file. Everythin
   CMD ["python3", "test.py", "--model_type=PID"]
   ```
  * If you are using one of our image file and want to have different command, you can request that and we will compile the new docker file for you
+ 
+ * You can find the project information about testing, training and other things in the link.  
+ 	[Purdue bioinspired lab](https://github.com/purdue-biorobotics/flappy)
