@@ -34,7 +34,7 @@ These instructions will get you a copy of the project up and running on your loc
 If you do not use Ubuntu 16.04, please consider using our docker file. Everything needed for this project is wrapped in the docker file. You can either compile the docker file in this repository or the use docker image we have compiled directly.
 
 
-## docker
+## Docker container
 # In ubuntu16.04
 
 * First install docker  
@@ -52,3 +52,10 @@ If you do not use Ubuntu 16.04, please consider using our docker file. Everythin
   ```zsh
   sudo docker run --net=host -it -e DISPLAY=$DISPLAY first
   ```
+
+## Environment and testing
+* To change the command you are running, please modify the command in the docker file
+  ```zsh
+  CMD ["python3", "test.py", "--model_type=PID"]
+  ```
+ * If you are using one of our image file and want to have different command, you can request that and we will compile the new docker file for you
